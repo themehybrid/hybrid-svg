@@ -1,0 +1,28 @@
+{
+	"name"        : "justintadlock/hybrid-svg",
+	"description" : "SVG utility.",
+	"keywords"    : [ "wordpress" ],
+	"homepage"    : "https://github.com/justintadlock/hybrid-svg",
+	"license"     : "GPL-2.0-or-later",
+	"authors"     : [
+		{
+			"name"     : "Justin Tadlock",
+			"email"    : "justintadlock@gmail.com",
+			"homepage" : "https://themehybrid.com",
+			"role"     : "Developer"
+		}
+	],
+	"support"     : {
+		"issues" : "https://github.com/justintadlock/hybrid-svg/issues",
+		"forum"  : "https://themehybrid.com/board/topics"
+	},
+	"autoload"    : {
+		"psr-4" : {
+			"Hybrid\\Svg\\" : "src/"
+		}
+	},
+	"require"     : {
+		"php" : ">=5.6",
+                "justintadlock/hybrid-core" : "^5.0.0"
+	}
+}
